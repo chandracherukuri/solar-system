@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Welcome Message
-          run: echo "My first Github Actions Job"
+          run: echo "My first step Github Actions Job"
 
         - name: List Files
           run: ls
