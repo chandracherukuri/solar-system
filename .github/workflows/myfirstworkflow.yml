@@ -2,9 +2,9 @@ name: Setup Node.js Environment
 
 on:
   push:
-    branches: [ main ]
+    branches: Feature/exploring workflow
   pull_request:
-    branches: [ main ]
+    branches: Feature/exploring workflow
 
 jobs:
   setup-node:
